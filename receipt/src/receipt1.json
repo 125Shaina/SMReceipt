@@ -1,0 +1,45 @@
+{
+  "receipt": [
+    {
+      "type": "cookie",
+      "price": 3.99,
+      "quantity": 1,
+      "variety": "rainbow"
+    },
+    {
+      "type": "cookie",
+      "price": 10.99,
+      "quantity": 5,
+      "variety": "oatmeal-raisin"
+    },
+    {
+      "type": "cake",
+      "price": 19.97,
+      "shape": "round",
+      "radius": 5,
+      "message": "Happy Birthday, David",
+      "flavor": "red-velvet"
+    },
+    {
+      "type": "cake",
+      "price": 19.97,
+      "shape": "rectangular",
+      "length": 9,
+      "width": 13,
+      "message": "Happy Anniversary",
+      "flavor": "chocolate"
+    },
+    {
+      "type": "doughnut",
+      "flavor": "boston-cream",
+      "price": 15.99,
+      "quantity": "12"
+    },
+    {
+      "type": "doughnut",
+      "flavor": "chocolate-munchkin",
+      "price": 1.99,
+      "quantity": "2"
+    }
+  ]
+}
