@@ -33,13 +33,13 @@
       "type": "doughnut",
       "flavor": "boston-cream",
       "price": 15.99,
-      "quantity": "12"
+      "quantity": 12
     },
     {
       "type": "doughnut",
       "flavor": "chocolate-munchkin",
       "price": 1.99,
-      "quantity": "2"
+      "quantity": 2
     }
   ]
 }
