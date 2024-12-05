@@ -28,10 +28,12 @@ function App()
 {
     var receipt = jsonData.receipt;
   return (
-    <div className="Receipt">
-        <h1> Receipt</h1>
-     <Receipt receipt={receipt} />
-    </div>
+      <div className="Receipt">
+          <h1 style = {{color:"pink", padding: "20px", justifyContent: "space-between"}} > Receipt</h1>
+
+          <Receipt receipt={receipt}/>
+
+      </div>
   );
 }
 
