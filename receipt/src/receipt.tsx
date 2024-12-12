@@ -36,7 +36,9 @@ function Item({item}: {item: food})
                 return <><img style={{height: "50px", width: "50px"}}
                               src = "https://aprettylifeinthesuburbs.com/wp-content/uploads/2022/02/The-BEST-Chocolate-Cake-9x13-11a.jpg"
                    />
-                        {cakeItem.flavor}{cakeItem.shape}{cakeItem.width}{cakeItem.length}{cakeItem.radius}</>;
+                    <h2 style={{display: "flex", color: "pink", margin: "30px", justifyContent: "space-between", padding: "20px"}}>
+                        {cakeItem.flavor}{cakeItem.shape}{cakeItem.width}{cakeItem.length}{cakeItem.radius}{cakeItem.message}</h2>
+                        </>;
             }
         }
         else if(cakeItem.flavor === "yellow")
@@ -45,13 +47,20 @@ function Item({item}: {item: food})
             {
                 return<><img style = {{height: "50px", width: "50px"}}
                              src = "https://www.hy-vee.com/webres/Image/catalog/thumbnail.aspx?img=10030_2_round_4539.jpg"
-                    />{cakeItem.flavor}{cakeItem.shape}{cakeItem.radius}{cakeItem.message}</>;
+                    />
+                    <h2 style={{display: "flex", color: "pink", margin: "30px", justifyContent: "space-between", padding: "20px"}}>
+                        {cakeItem.flavor}{cakeItem.shape}{cakeItem.radius}{cakeItem.message}</h2>
+                    </>;
             }
             else
             {
                 return <><img style = {{height: "50px", width: "50px"}}
                               src = "https://images.freshop.com/00210454000000/ebb256a9706bccd0bc1789d355818e72_large.png"
-                   /> {cakeItem.flavor}{cakeItem.shape}{cakeItem.width}{cakeItem.length}{cakeItem.radius}</>;
+                   />
+                    <h2 style={{display: "flex", color: "pink", margin: "30px", justifyContent: "space-between", padding: "20px"}}>
+                    {cakeItem.flavor}{cakeItem.shape}{cakeItem.width}{cakeItem.length}{cakeItem.radius}
+                    </h2>
+                </>;
             }
         }
         else
@@ -60,7 +69,10 @@ function Item({item}: {item: food})
             {
                 return<><img style = {{height: "50px", width: "50px"}}
                              src = "https://preppykitchen.com/wp-content/uploads/2022/07/Red-Velvet-Blog-1a.jpg"
-                    />{cakeItem.flavor}{cakeItem.shape}{cakeItem.radius}{cakeItem.message}</>;
+                    />
+                    <h2 style={{display: "flex", color: "pink", margin: "30px", justifyContent: "space-between", padding: "20px"}}>
+                        {cakeItem.flavor}{cakeItem.shape}{cakeItem.radius}{cakeItem.message}</h2>
+                    </>;
             }
             else
             {
