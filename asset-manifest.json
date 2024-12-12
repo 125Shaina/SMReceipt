@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f855e6bc.css",
-    "main.js": "/static/js/main.03552d94.js",
-    "static/js/453.d40afe59.chunk.js": "/static/js/453.d40afe59.chunk.js",
-    "index.html": "/index.html",
-    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
-    "main.03552d94.js.map": "/static/js/main.03552d94.js.map",
-    "453.d40afe59.chunk.js.map": "/static/js/453.d40afe59.chunk.js.map"
+    "main.css": "/SMReceipt/static/css/main.f855e6bc.css",
+    "main.js": "/SMReceipt/static/js/main.3da8bb19.js",
+    "static/js/453.d40afe59.chunk.js": "/SMReceipt/static/js/453.d40afe59.chunk.js",
+    "index.html": "/SMReceipt/index.html",
+    "main.f855e6bc.css.map": "/SMReceipt/static/css/main.f855e6bc.css.map",
+    "main.3da8bb19.js.map": "/SMReceipt/static/js/main.3da8bb19.js.map",
+    "453.d40afe59.chunk.js.map": "/SMReceipt/static/js/453.d40afe59.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.03552d94.js"
+    "static/js/main.3da8bb19.js"
   ]
 }
